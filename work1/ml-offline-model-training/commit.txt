@@ -1,0 +1,5 @@
+[GDC-4977] [Show] integrate user2item model code
+
+refactor for planet-novel u2i
+
+issue #5 : [GDC-4977] [Show] integrate user2item model code

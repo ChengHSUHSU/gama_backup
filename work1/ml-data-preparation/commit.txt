@@ -1,0 +1,6 @@
+[GDC-4975] [Show] data preparation (user2item) 問題追蹤與補一些需要的資料
+
+1. user meta profile : gama_used, ...
+2. club category profile, embedding
+
+issue #4 : [GDC-4975] [Show] data preparation (user2item) 問題追蹤與補一些需要的資料

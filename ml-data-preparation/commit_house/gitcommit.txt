@@ -1,0 +1,8 @@
+[GDC-4573][星球新聞][hot] Planet news hot linUCB model data preparation
+
+(1) load event, statistics and context data
+(2) aggregator function
+(3) join data (event, statistics, context)
+(4) dump data with pickle
+
+issue #2 : [GDC-4573][星球新聞][hot] Planet news hot linUCB model data preparation

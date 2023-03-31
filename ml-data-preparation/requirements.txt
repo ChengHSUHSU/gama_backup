@@ -1,0 +1,7 @@
+google-cloud-storage==1.13.1
+pandas==1.2.4
+numpy==1.19.5
+tqdm==4.60.0
+multipledispatch==0.6.0
+pyspark
+pytest

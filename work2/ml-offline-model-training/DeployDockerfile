@@ -1,0 +1,18 @@
+FROM python:3.8.5
+
+WORKDIR /root/workspace/
+
+COPY setup.py .
+COPY ./src .
+COPY ./utils .
+COPY GCP_SA_KEY.json .
+
+RUN pip3 install setuptools
+RUN python setup.py sdist
+
+RUN curl -sSL https://sdk.cloud.google.com | bash
+ENV PATH $PATH:/root/google-cloud-sdk/bin
+
+RUN gcloud auth activate-service-account --key-file GCP_SA_KEY.json
+RUN gsutil cp dist/planetrecsys-0.1.0.tar.gz \
+gs://machine-learning-models-bf-data-uat-001/r12n/planet-content-ranking/package/planetrecsys-0.1.0.tar.gz

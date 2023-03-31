@@ -1,0 +1,5 @@
+[GDC-4418] [星球新聞][hot] Integration planet news hot model
+
+build hot model
+
+issue #2 : [GDC-4418] [星球新聞][hot] Integration planet news hot model

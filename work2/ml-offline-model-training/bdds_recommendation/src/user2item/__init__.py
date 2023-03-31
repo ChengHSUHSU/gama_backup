@@ -1,0 +1,1 @@
+from bdds_recommendation.src.user2item.din_handler import DINHandler

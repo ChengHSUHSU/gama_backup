@@ -1,0 +1,5 @@
+[GDC-4802] [Model Optimization][Model Zoo][Novel Book][u2i] Implement v2 offline-model-train for planet novel book user2item
+
+refactor for planet-novel u2i
+
+issue #4 : [GDC-4802] [Model Optimization][Model Zoo][Novel Book][u2i] Implement v2 offline-model-train for planet novel book user2item
