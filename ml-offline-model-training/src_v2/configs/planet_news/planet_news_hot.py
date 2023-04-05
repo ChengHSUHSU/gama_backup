@@ -13,17 +13,10 @@ PlanetNewsHotGeneralConfig = GeneralConfigs.update({
 
 # Data Preprocess Config
 PlanetNewsHotLinUCBPreprocessConfig = BaseHotPreprocessConfigs.update({
-    # format: {old_name: new_name}
-    'COLUMN_TO_RENAME': {},
-
-    # support min-max or z-score (Need to be optimized. Currently normalize method is too hacky)
-    'NORMALIZE_COLS': {
-        'min-max': {},  # set val for upper bound normalize, set val None to standard min-max normalize
-        'z-score': {}
-    },
     # chain_configs
     # holds the pipeline of preprocessor for anything you want it to.
     # CHAIN_CONFIGS format: {'func_name': {'func_param_key': 'func_param_value'}}
+    # THE "_process" don't do anything. It's preserved, because we improve model performance in future.
     'CHAIN_CONFIGS': {'_process': {}}
 })
 
